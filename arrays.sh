@@ -1,6 +1,7 @@
 #!/bin/bash
 
-#arrays are very cool, store multiple variables
+#THIS IS SUPPOSED TO BE VARIABLES, I MESSED UP
+#ask question, take input as a varible and use it the next response
 
 echo "what is your name?"
 
