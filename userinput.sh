@@ -5,3 +5,7 @@ if ((attempt_wsp !n))
 
 echo "$attempt_wsp is cool "
 # takes in user input, -p combines echo with read so it gives a message
+
+
+
+#idk what the !n does, i searched it up im looooost
