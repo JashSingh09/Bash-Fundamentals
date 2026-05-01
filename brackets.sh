@@ -8,8 +8,11 @@
 #-------------------------------------------------------------------------------
 #double square brackets[[]]
 
-print ${what the helly}
-read -p idk_brp
+
+read -p "plz input something for a demo of brackets" user_input_for_future
+
+
+if [$user_input_for_future]
 #round()
 #single round brackets open a subshell, a shell inside  sheel but only outputs the answer and doesnt show the parth to get the answer
 #double round brackets(())
