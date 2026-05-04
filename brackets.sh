@@ -12,10 +12,10 @@
 read -p "plz input something for a demo of brackets" user_input_for_future
 
 
-if [[$user_input_for_future == "what do you want me to do"]]
+if [$user_input_for_future = "what do you want me to do"]
 
-# for the square brackets, i
-
+#for single square brackets, it can break if there is spaces and or something weird
+# must quote the variables and cant match any patterns
 #-------------------------------------------------------------------------------
 elif[$user_input_for_future]
 
