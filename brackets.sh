@@ -15,9 +15,14 @@ read -p "plz input something for a demo of brackets" user_input_for_future
 if [$user_input_for_future = "what do you want me to do"]
 
 #for single square brackets, it can break if there is spaces and or something weird
-# must quote the variables and cant match any patterns
+#must quote the variables and cant match any patterns,
+#making it bad and its better if i use double brackets
 #-------------------------------------------------------------------------------
-elif[$user_input_for_future]
+if [[$user_input_for_future = ""]]
+
+#basically double brackets  are ALWAYS BETTER
+
+elif [$user_input_for_future]
 
 
 #round()
