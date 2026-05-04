@@ -12,17 +12,20 @@
 read -p "plz input something for a demo of brackets" user_input_for_future
 
 
-if [$user_input_for_future = "what do you want me to do"]
+if [$user_input_for_future = " "]
+	echo "put something in bro"
 
 #for single square brackets, it can break if there is spaces and or something weird
 #must quote the variables and cant match any patterns,
 #making it bad and its better if i use double brackets
+#usually use it for more simple things
+
 #-------------------------------------------------------------------------------
-if [[$user_input_for_future = ""]]
 
-#basically double brackets  are ALWAYS BETTER
+elif [[$user_input_for_future]]
+#basically double brackets  are ALWAYS BETTER because they have better pattern matching and u dont need to quote the variables
+# u can use regex and doesnt really mess up
 
-elif [$user_input_for_future]
 
 
 #round()
