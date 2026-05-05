@@ -7,6 +7,15 @@
 
 #arrays are lists, like they are multiple variables
 
+# almost always you can use variables but this makes it easier to program, thats the only difference
+# what you can use it for some functions
+
+# ex) lists of fruits so when i call the variable it j
+
+fruits= ("apple" "banana" "orange")
+
+echo "$fruits"
+
 
 
 
