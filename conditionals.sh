@@ -18,12 +18,11 @@ if [[ "$users_guess" =~ ^[0-9]+$ ]]
 
 	else 
 		echo " you got it, someone is a smart boi"
-
+# note that i could have put in -eq for equal but it is just easier to put something else 
 	fi
 else 
 	echo "plz just input an actual number, human being"
 
-# -lt = less than, -gt = greater than, 
 
 
 
@@ -32,7 +31,17 @@ else
 #-------------------------------------------------------------------------------------
 # like explained in brackets, if the number isnt a number you put the =~ ^[0-9]+$ ]] ,
 		# ^ is start of input,
-#( btw i somehow forgot the obvious things, life elif and the dollar sign, it should work now )
-# spacing in brackets is very important  before and after you open the bracket
+
+# spacing in brackets is very important  before and after you open the bracket which i forget to do, 
+
+# != is not equal becuase its the opposite of the simble, 
+# strings and numbers have different conditionals, like 
+#-------------------------------------------------------------------
+ # for mumbers
+ 	# -eq is equal, -lt = less than, -gt = greater than,  -ne is not equal
+
+
+#-------------------------------------------------------------------
 
 #also colours make life so much easier in bash, everything should be colourful, not just sublime
+#( btw i somehow forgot the obvious things, life elif and the dollar sign, it should work now )
