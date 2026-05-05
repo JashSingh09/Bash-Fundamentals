@@ -45,3 +45,5 @@ else
 
 #also colours make life so much easier in bash, everything should be colourful, not just sublime
 #( btw i somehow forgot the obvious things, life elif and the dollar sign, it should work now )
+
+#
