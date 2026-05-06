@@ -4,14 +4,33 @@
 
 # case statements are like if else and elif, but in one command basically
 
-echo "pick a number between 1 and 10"
+echo "pick a number between 1 and 3"
 
 read another_picked_number
 
-#must have a few things
+#must have a few things, like in is a few things that the variable will match with
+#-----------------------------------------------------------------------------------------
+
 case $another_picked_number in
 	1)
 		echo "yay you picked the amount of earths that exist"
 	;;
 
-	2)
+	2) 
+		echo " you picked the amount of hands a person usually has"
+	;;
+
+	3) echo " you picked a number that comes before 4 and after 2, congrats"
+
+	;;
+
+	*
+		echo " pick a number between 1 and 3, bozo"
+
+esac
+
+#============================================================================================
+
+# case backwards is esac, which is like if and fi, to just end it.
+
+#note , = symbols are way better than dashes in notes
