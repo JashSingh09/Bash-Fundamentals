@@ -14,7 +14,7 @@ read another_picked_number
 
 #must have a few things, like in is a few things that the variable will match with
 # another thing is the ) after every option, it wont work without it
-# the ;;
+# the ;; at the end of every option, 
 #-----------------------------------------------------------------------------------------
 
 case $another_picked_number in
@@ -30,7 +30,7 @@ case $another_picked_number in
 
 	;;
 
-	*
+	*)
 		echo " pick a number between 1 and 3, bozo"
 
 esac
@@ -39,4 +39,4 @@ esac
 
 # case backwards is esac, which is like if and fi, to just end it.
 
-#note , = symbols are way better than dashes in notes
+# NOTE, = symbols are way better than dashes in notes
