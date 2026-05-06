@@ -3,12 +3,18 @@
 
 
 # case statements are like if else and elif, but in one command basically
+#=======================================================================
+#VERY IMPORTANT: USE 'CASE' FOR MATCHING SPECIFIC VALUES OR PATTERNS, 
 
+# AND USE 'IF' FOR NUMBERS AND LOGIC
+#=======================================================================
 echo "pick a number between 1 and 3"
 
 read another_picked_number
 
 #must have a few things, like in is a few things that the variable will match with
+# another thing is the ) after every option, it wont work without it
+# the ;;
 #-----------------------------------------------------------------------------------------
 
 case $another_picked_number in
