@@ -17,6 +17,14 @@ read another_picked_number
 # the ;; at the end of every option, 
 #-----------------------------------------------------------------------------------------
 
+
+
+
+
+
+
+
+# use this for singular options, specific options
 case $another_picked_number in
 	1)
 		echo "yay you picked the amount of earths that exist"
