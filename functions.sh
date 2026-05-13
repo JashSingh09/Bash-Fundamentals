@@ -6,10 +6,15 @@
 #start with the name of function
 #ie 
 greet_user() {
-	echo "whats wrong, $name_1"
-
+	echo "whats wrong,$name_1"
+	
 }
 
-read -p "can you put in your name for me"
+read -p "can you put in your name for me" name_1
 
-greet_user "
+greet_user 
+
+
+
+# i state the name of function then put () to define it as a function,right after it put {
+#   } as shown before
