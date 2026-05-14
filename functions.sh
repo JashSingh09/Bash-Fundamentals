@@ -1,20 +1,21 @@
 #!/bin/bash
 
-#functions are lines of code that can be called on when you need them for
 
+#--------------------------------------
+#from what i understand, its what happens when the the user does not provide input
+# for example if i ask for anything then, it will put default to fill up the input
 
-#start with the name of function
-#ie 
-greet_user() {
-	echo "whats wrong,$name_1"
-	
-}
+read -p "whats your name, to stay anonymous leave blank: " name 
 
-read -p "can you put in your name for me" name_1
+name=${name:-Anonymous}
+# you have to put a 
+#henry explained what default values meant
+# different syntax for different things
+#if i dont set anything it will put the name as anonymous
+#
 
-greet_user 
+#-----------------------------------------------
+# name=${name-Anonymous}  -----------------------> 
 
-
-
-# i state the name of function then put () to define it as a function,right after it put {
-#   } as shown before
+# name=${name=Anonymous}  -----------------------> 
+# name=${name:=Anonymous} -------------------------> 
