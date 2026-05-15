@@ -28,3 +28,8 @@ echo "apple banana cherry" | tr ' ' ' \n'
 #banana
 #cherry
 # it puts new line for each word basically
+
+
+#find . -type f | wc -l
+#this one finds the files and counts the amount of files
+#(another chatgpt example)
