@@ -31,5 +31,5 @@ echo "apple banana cherry" | tr ' ' ' \n'
 
 
 #find . -type f | wc -l
-#this one finds the files and counts the amount of files
+#this one finds the files and counts the amount of files	
 #(another chatgpt example)
