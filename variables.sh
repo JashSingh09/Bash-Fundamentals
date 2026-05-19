@@ -10,3 +10,13 @@ read name
 echo "hello, how are you $name ? what do you want to do"
 
 
+#if you understand how variables work in math you can understand how they work in bash
+# first you have to define the variable
+#this can be done in a lot of different ways
+# you can read ( user input ) and store
+# you can state it like
+
+testvariable=10
+
+
+echo "$testvariable"
