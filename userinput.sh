@@ -1,15 +1,24 @@
 #!/bin/bash
 
-read -p "what are you trying to do" attempt_wsp
-if (( ! -n attempt_wsp))
-	echo "type something loser"
 
-echo "$attempt_wsp is cool"
-# takes in user input, -p combines echo with read so it gives a message
+echo "what is your name "
+read  name1
+
+echo "what is your favorite food"
+
+read food1
+
+echo "your name is $name1 and you like $food1"
 
 
-#NOTE TO MAKE THE SCRIPT LOOP OR IM COOKED
-#idk what the !n does, i searched it up im looooost
 
-#-n means if the string is not empty?
-#! reverses 
+# read makes the user input something and it stores it as a variable
+
+# read -p combines echo and makes it display a message
+
+#ie 
+# read -p "prompt" stored_input
+
+
+
+
