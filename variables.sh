@@ -17,6 +17,4 @@ echo "hello, how are you $name ? what do you want to do"
 # you can state it with = sign, and use dollar sign to call it 
 
 testvariable="10"
-
-
 echo "$testvariable"
