@@ -14,4 +14,10 @@
 students=("Alice" "Bob" "Charlie")
 food=("Pizza" "Ice Cream" "Banana")
 
+for i in "${!students[@]}"; do
+	echo "${students[$i]} likes ${food[$i]}"
+done
+
+
 # chatgpt is trying to explain and it is saying that i can use i as a loop index variable
+# i hear there are 2 ways to simulate the 2darrays(shortfrom because its verylong), associative arrays and item 2d array simulation
