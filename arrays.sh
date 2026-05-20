@@ -12,9 +12,12 @@
 
 # ex) lists of fruits so when i call the variable it j
 
-fruits= ("apple" "banana" "orange")
+fruits=("apple" "banana" "orange")
 
-echo "$fruits"
+echo "${fruits[0]}"
+# need to put the variable in squiggly brackets and the put it in square brackets with value, the first value is actually 0
+
+#easy to mess this up
 
 
 
