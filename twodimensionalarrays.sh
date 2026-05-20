@@ -2,10 +2,16 @@
 
 
 #2 dimensional arrays are possible in a lot of other languages but not really in bash and they are like a spreadsheet, that have columns and rows,
-#like we use the same index so it will show us both info, if that makes sense
+#like we use the same index so it will show us both info, if that makes sensez
 
 # Index | Student  | Food
 # ------|----------|------
 #   0   | Alice    | Pizza
 #   1   | Bob      | Ice Cream
 #   2   | Charlie  | Banana
+
+
+students=("Alice" "Bob" "Charlie")
+food=("Pizza" "Ice Cream" "Banana")
+
+# chatgpt is trying to explain and it is saying that i can use i as a loop index variable
