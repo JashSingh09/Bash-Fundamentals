@@ -21,7 +21,7 @@ do
 		break
 	fi
 	((index++))
-done  #DONE is very inportant as it ends it
+done  #DONE is very inportant as it ends it, DONT FORGET
 
 
 # basically the index increases after every loop and that signifies what number is being printed and going through that if the number = 7 it stops echoing it out 

@@ -15,7 +15,7 @@
 fruits=("apple" "banana" "orange")
 
 echo "${fruits[0]}"
-# need to put the variable in squiggly brackets and the put it in square brackets with value, the first value is actually 0
+# need to put the variable in squiggly brackets and the put it in square brackets with value, the first value is actually 0 and there is a lot of of syntax that i can learn
 
 #easy to mess this up
 
