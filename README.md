@@ -21,8 +21,7 @@ in a real job its like my online resume and future employers can look at my prog
 the first challenge that i faced was staying on task, i really didnt know what to do in the start so i didnt really do that much but after that i got into a tempo because i didnt really know any coding other than some basics in python and html, so i wanted to actually learn what bash was and make something myself,
 i found it pretty fun and it motivated me to stay on task more.
 
+Another challenge was remembering the brackets and quotations, like when to use which one and ending the bracket pair.
+I also struggled to figure out a use for some commands, like for printf and all the syntax, arrays are kind of useful but i thought about some actuall applications for each command
 
-
-
-Objective:
-Continue to develop your GitHub repositories. Add/Edit a 'README.md' file that explains the following in your own words (Use markdown for creative/fancy/helpful formating), What is bash, How this repo is helping you learn and practice bash, the usefulness of documentation, The perpose of using Git, why or why not git is useful or imporant in industry, challenges you have faced and overcome, challeneges you currently have (if you do not have any challenges then brainstorm ways to add complexity so that you have a challenege to overcome (I will read these.).).
+(side note, you need to put a space after the ## so so it doesnt show up)
