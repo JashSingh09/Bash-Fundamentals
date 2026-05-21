@@ -16,7 +16,13 @@ do
 	#its going to repeatedly go through the loop
 	echo "${numbers[$index]}"
 
-	if [[ $numbers[$index]}
+	if [[ ${numbers[$index]} -eq 7 ]]; then 
+		echo "I printed 7 so I self destruct"
+		break
+	fi
+	((index++))
+done  #DONE is very inportant as it ends it
 
 
+# basically the index increases after every loop and that signifies what number is being printed and going through that if the number = 7 it stops echoing it out 
 #i keep on making the mistake of using the wrong brackets and miscounting what bracket should go where
