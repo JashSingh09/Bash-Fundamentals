@@ -22,4 +22,32 @@ echo "${fruits[0]}"
 
 
 
+#=============================================================================
+#NEEDED TO KNOW WHAT DECLARE DOES AS SCRIPTS IN NEW DUCKINGTON AND MORE USE IT
+
+# declare is used to create variables and create arrays
+
+#it gives them special properties and shows the info about variables
+
+
+# name="King"
+# you can also do declare name="King"
+# foods=("Pizza" "Burger" "Ice Cream")
+# can also be declare -a foods=("Pizza" "Burger" "Ice Cream")
+
+
+#-a means arrays
+ # declare -a enemies means enemmies is an array
+
+# use it to show an array that can be empty and filled up later
+
+# -A means associative arrays
+
+# -i is number and will treat is at one 
+
+# this would echo 15
+#declare -i score=10
+# score=score+5
+# echo "$score"
+
 
